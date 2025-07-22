@@ -1,0 +1,43 @@
+# UI Design Rules (Minimalism-Oriented, for AI Model Compliance)
+
+- Font Family:
+    - Use: Inter, Plus Jakarta Sans, or DM Sans, sans-serif
+    - Tailwind: font-sans
+
+- Font Size:
+    - Default: text-base for content
+    - Headings: text-xl or text-2xl
+    - Example: text-xl font-semibold
+
+- Colors:
+    - Background: #F9FAFB, #E5E7EB (keep backgrounds light and neutral)
+    - Text: #111827, #374151 (use high contrast, avoid extra colors)
+    - Accent: #2563EB (use sparingly for minimal distraction)
+    - Tailwind: bg-white, text-gray-800, hover:text-blue-600
+
+- Spacing:
+    - Minimum padding: p-4
+    - Gap between items: gap-4
+    - Example: grid grid-cols-2 gap-4
+
+- Component Style:
+    - Border radius: rounded-xl (use softer, smaller radius for minimalism)
+    - Shadow: shadow-none or shadow-sm (prefer minimal or no shadow)
+    - Border: border-gray-200 (thin, subtle borders only)
+    - Use components from shadcn/ui: card, modal, button (prefer simple variants)
+
+- Do Not Use:
+    - No gradients
+    - No thick borders
+    - No full-background stock images
+    - No unnecessary icons or decorations
+    - Minimize distractions
+
+- Loading State:
+    - Use skeleton loading, not spinner
+    - Example: shadcn Skeleton
+
+- Interaction:
+    - Clear hover states (subtle color or underline)
+    - Keyboard-friendly focus states
+    - Example: focus-visible:outline
